@@ -12,11 +12,11 @@ I'm currently pursuing a Master's in Computer Engineering at the University of B
 - **Master's in Computer Engineering**  
   University of Bologna  
   _I'm currently diving into advanced topics and loving every bit of it!_  
-  [Explore my University materials]()
+  
 
 - **Bachelor's in Computer Engineering**  
   Politecnico di Milano  
-  [Check out my Politecnico projects]()
+  
 
 - **Interests:** Philosophy, Cinema, Gym 🏋️‍♂️
 
@@ -38,8 +38,8 @@ Stay tuned for these upcoming projects:
 ## Skills & Tools
 
 - **Languages:**
-  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="30" height="30"/> Java •
-  -  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="30" height="30"/> C •
+  -  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/>  
+  -  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40"/>  
 - **Frameworks / Libraries:**
 
 
