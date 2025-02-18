@@ -46,7 +46,6 @@ Here's a quick overview of what you'll find in my GitHub profile:
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="50" height="50"/>
-    <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/vhdl_logo.svg" width="50" height="50"/>
   </div>
 
 - **Tools & Version Control:**
