@@ -42,7 +42,7 @@ Here's a quick overview of what you'll find in my GitHub profile:
 ## Skills & Tools
 
 - **Languages:**
-  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="50" height="50"/>
@@ -50,7 +50,7 @@ Here's a quick overview of what you'll find in my GitHub profile:
   </div>
 
 - **Tools & Version Control:**
-  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" height="50"/>
@@ -61,13 +61,13 @@ Here's a quick overview of what you'll find in my GitHub profile:
   </div>
 
 - **General Tools:**
-  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg" width="50" height="50"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Google_Docs_logo.svg" width="50" height="50"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Microsoft_Office_Excel_%282019–present%29.svg" width="50" height="50"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Canva_Logo.svg" width="50" height="50"/>
   </div>
-![alt text](image.png)
+
 
 ## More About Me
 
