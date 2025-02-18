@@ -62,9 +62,7 @@ Here's a quick overview of what you'll find in my GitHub profile:
 - **General Tools:**
   <div style="display: flex; gap: 20px; flex-wrap: wrap;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg" width="50" height="50"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Google_Docs_logo.svg" width="50" height="50"/>
-    <img src="https://it.wikipedia.org/wiki/Microsoft_Excel#/media/File:Microsoft_Office_Excel_(2019%E2%80%93present).svg" width="50" height="50"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Canva_Logo.svg" width="50" height="50"/>
+    <img src="https://commons.wikimedia.org/wiki/Category:Microsoft_Excel#/media/File:Microsoft_Office_Excel_(2019%E2%80%93present).svg" width="50" height="50"/>
   </div>
 
 
