@@ -6,7 +6,8 @@ I'm currently pursuing a Master's in Computer Engineering at the University of B
 
 - **Name:** Leonardo Chiaretti 
 - **Age:** 23
-- **Other Interests:** Philosophy, Cinema, Gym 🏋️‍♂️ 
+- **Favorite Film:** [Parasite](https://en.wikipedia.org/wiki/Parasite_(2019_film))
+- **Favorite Book:** [Thus spake Zarathustra](https://en.wikipedia.org/wiki/Thus_Spoke_Zarathustra)
 
 ## Education 🎓
 
@@ -16,6 +17,10 @@ I'm currently pursuing a Master's in Computer Engineering at the University of B
 
 - **Bachelor's in Computer Engineering**  
   Politecnico di Milano  
+
+
+- **Highschool Diploma in Liceo Classico**
+  Liceo Classico G.C. Tacito, Terni
   
 
 ## My Repositories
@@ -23,8 +28,11 @@ I'm currently pursuing a Master's in Computer Engineering at the University of B
 Here's a quick overview of what you'll find in my GitHub profile:
 
 - [**University Repository**](https://github.com/cicixgliamici/university): Study and teaching material from my courses 📝
-- [**Politecnico Projects**](#): Three thesis-substitute projects from Politecnico di Milano 📚
-- [**LeetCode Practice**](#): LeetCode solutions with detailed explanations 💡
+- **Politecnico Projects**: Three thesis-substitute projects from Politecnico di Milano 📚: 
+    - [**Logic Network**](https://github.com/cicixgliamici/RetiLogiche_2024)
+    - [**Software Engineering**](https://github.com/cicixgliamici/Ingegneria_Software2024)
+    - [**Data Structure and Algorithms**](https://github.com/cicixgliamici/Algoritmi-StruttureDati_2024)
+- [**LeetCode Practice**](https://github.com/cicixgliamici/leetcode): LeetCode solutions with detailed explanations 💡
 
 ## Coming Soon 🚧
 
@@ -38,19 +46,31 @@ Here's a quick overview of what you'll find in my GitHub profile:
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="50" height="50"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/VHDL_logo.svg" width="50" height="50"/>
   </div>
 
 - **Tools & Version Control:**
   <div style="display: flex; gap: 10px; flex-wrap: wrap;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" height="50"/>
+    <img src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" width="50" height="50"/>
+    <img src="https://resources.jetbrains.com/storage/products/clion/img/meta/clion_logo_300x300.png" width="50" height="50"/>
+    <img src="https://upload.wikimedia.org/wikipedia/en/3/3d/Xilinx_Vivado_Logo.png" width="50" height="50"/>
+  </div>
+
+- **General Tools:**
+  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" width="50" height="50"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Docs_2020_Logo.svg" width="50" height="50"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Microsoft_Excel_2013-2019_logo.svg" width="50" height="50"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg" width="50" height="50"/>
   </div>
 
 ## More About Me
 
 📁 This Repo contains:
-- My professional [CV]()
-- [Study Plan PDF](https://github.com/cicixgliamici/cicixgliamici/raw/blob/main/StudyPlan.pdf) (List of all completed and on going courses)
+- My professional [CV](https://github.com/cicixgliamici/cicixgliamici/raw/main/CV-Chiaretti.pdf)
+- Study Plan [PDF](https://github.com/cicixgliamici/cicixgliamici/raw/main/StudyPlan.pdf) (List of all completed and on going courses)
 
 💡 *For better readability of documents, I recommend downloading them as GitHub's rendering can sometimes be suboptimal.*
 
