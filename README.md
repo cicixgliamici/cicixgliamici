@@ -55,14 +55,14 @@ Here's a quick overview of what you'll find in my GitHub profile:
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" height="50"/>
     <img src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" width="50" height="50"/>
     <img src="https://resources.jetbrains.com/storage/products/clion/img/meta/clion_logo_300x300.png" width="50" height="50"/>
-    <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/vivado_logo.svg" width="50" height="50"/>
-
+    <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/vivado_logo.svg" width="80" height="50"/>
   </div>
 
 - **General Tools:**
   <div style="display: flex; gap: 20px; flex-wrap: wrap;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg" width="50" height="50"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" width="50" height="50"/>
+    <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/excel_logo.svg" width="80" height="50"/>
+
   </div>
 
 
