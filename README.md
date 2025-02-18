@@ -43,26 +43,37 @@ Here's a quick overview of what you'll find in my GitHub profile:
 
 - **Languages:**
   <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="50" height="50"/>
   </div>
 
-- **Tools & Version Control:**
+- **Version Control:**
   <div style="display: flex; gap: 20px; flex-wrap: wrap;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" height="50"/>
+  </div>
+
+- **IDE:**
+  <div style="display: flex; gap: 20px; flex-wrap: wrap;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" height="50"/>
     <img src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" width="50" height="50"/>
     <img src="https://resources.jetbrains.com/storage/products/clion/img/meta/clion_logo_300x300.png" width="50" height="50"/>
     <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/vivado_logo.svg" width="80" height="50"/>
   </div>
 
-- **General Tools:**
+- **Writing**
+  <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="50" height="50"/>
+  <div>
+
+- **Productivity:**
   <div style="display: flex; gap: 20px; flex-wrap: wrap;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg" width="50" height="50"/>
     <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/excel_logo.svg" width="80" height="50"/>
-
+    <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/google_doc_logo.svg" width="80" height="50"/>
   </div>
 
 
