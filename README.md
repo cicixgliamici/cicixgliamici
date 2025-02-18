@@ -46,17 +46,18 @@ Here's a quick overview of what you'll find in my GitHub profile:
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="50" height="50"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/VHDL_logo.svg" width="50" height="50"/>
+    <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/vhdl_logo.svg" width="50" height="50"/>
   </div>
 
 - **Tools & Version Control:**
   <div style="display: flex; gap: 10px; flex-wrap: wrap;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" height="50"/>
     <img src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" width="50" height="50"/>
     <img src="https://resources.jetbrains.com/storage/products/clion/img/meta/clion_logo_300x300.png" width="50" height="50"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Xilinx_Vivado_Logo.svg" width="50" height="50"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" height="50"/>
+
   </div>
 
 - **General Tools:**
@@ -66,7 +67,7 @@ Here's a quick overview of what you'll find in my GitHub profile:
     <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Microsoft_Office_Excel_%282019–present%29.svg" width="50" height="50"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Canva_Logo.svg" width="50" height="50"/>
   </div>
-
+![alt text](image.png)
 
 ## More About Me
 
