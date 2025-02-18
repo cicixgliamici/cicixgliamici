@@ -5,46 +5,55 @@ I'm currently pursuing a Master's in Computer Engineering at the University of B
 ## About Me
 
 - **Name:** Leonardo Chiaretti 
+- **Age:** 23
 - **Other Interests:** Philosophy, Cinema, Gym 🏋️‍♂️ 
 
 ## Education 🎓
 
 - **Master's in Computer Engineering**  
-  University of Bologna  
-  _I'm currently diving into advanced topics and loving every bit of it!_  
-  
+  University of Bologna   
+
 
 - **Bachelor's in Computer Engineering**  
   Politecnico di Milano  
   
 
-- **Interests:** Philosophy, Cinema, Gym 🏋️‍♂️
-
 ## My Repositories
 
 Here's a quick overview of what you'll find in my GitHub profile:
 
-- **University Repository:** This repo houses all the study and teaching material I create and use during my courses. 📝
-- **Politecnico Projects:** A collection of three projects that served as substitutes for my thesis at Politecnico di Milano. 📚
-- **LeetCode Practice:** A repository dedicated to the LeetCode problems I solve, complete with plenty of explanations and my thought process. 💡
+- [**University Repository**](https://github.com/cicixgliamici/university): Study and teaching material from my courses 📝
+- [**Politecnico Projects**](#): Three thesis-substitute projects from Politecnico di Milano 📚
+- [**LeetCode Practice**](#): LeetCode solutions with detailed explanations 💡
 
 ## Coming Soon 🚧
 
-Stay tuned for these upcoming projects:
-
-- **Lambda Calculus in Scala:** A fun deep dive into lambda calculus using Scala. 🔢
-- **Pokemon Cards Database:** A full-stack project featuring both backend and frontend parts for managing my Pokemon card library/collection and my personal Book library. 🎴
+- [**Lambda Calculus in Scala**](#): Exploring lambda calculus through Scala 🔢
+- [**Pokemon Cards Database**](#): Full-stack collection management system 🎴
 
 ## Skills & Tools
 
 - **Languages:**
-  -  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/>  
-  -  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40"/>  
-- **Frameworks / Libraries:**
+  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="50" height="50"/>
+  </div>
 
+- **Tools & Version Control:**
+  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" height="50"/>
+  </div>
 
 ## More About Me
 
-In this repository, you'll also find my CV and other details about my professional journey. Feel free to explore, drop a comment, or get in touch if you'd like to collaborate or just say hi! 😊
+📁 This Repo contains:
+- My professional [CV]()
+- [Study Plan PDF](https://github.com/cicixgliamici/cicixgliamici/raw/blob/main/StudyPlan.pdf) (List of all completed and on going courses)
+
+💡 *For better readability of documents, I recommend downloading them as GitHub's rendering can sometimes be suboptimal.*
+
+Feel free to explore, drop a comment, or get in touch if you'd like to collaborate or just say hi! 😊
 
 Thanks for stopping by, and happy coding! 💻✨
