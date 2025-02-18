@@ -20,7 +20,6 @@ I'm currently pursuing a Master's in Computer Engineering at the University of B
 
 
 - **Highschool Diploma in Liceo Classico**
-
   Liceo Classico G.C. Tacito, Terni
   
 
