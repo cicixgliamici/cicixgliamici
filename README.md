@@ -53,10 +53,10 @@ Here's a quick overview of what you'll find in my GitHub profile:
   <div style="display: flex; gap: 10px; flex-wrap: wrap;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" height="50"/>
     <img src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" width="50" height="50"/>
     <img src="https://resources.jetbrains.com/storage/products/clion/img/meta/clion_logo_300x300.png" width="50" height="50"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Xilinx_Vivado_Logo.svg" width="50" height="50"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" height="50"/>
   </div>
 
 - **General Tools:**
