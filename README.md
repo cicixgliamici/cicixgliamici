@@ -56,7 +56,7 @@ Here's a quick overview of what you'll find in my GitHub profile:
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" height="50"/>
     <img src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" width="50" height="50"/>
     <img src="https://resources.jetbrains.com/storage/products/clion/img/meta/clion_logo_300x300.png" width="50" height="50"/>
-      <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/vivado_logo.svg" width="50" 
+    <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/vivado_logo.svg" width="50" height="50"/>
 
   </div>
 
