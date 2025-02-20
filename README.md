@@ -81,7 +81,7 @@ Here's a quick overview of what you'll find in my GitHub profile:
 
 ## Some Stats 📊
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cicixgliamici&layout=compact&theme=dark&hide=CSS,HTML)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cicixgliamici&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 
 ## More About Me
