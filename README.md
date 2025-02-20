@@ -69,7 +69,7 @@ Here's a quick overview of what you'll find in my GitHub profile:
   <div style="display: flex; gap: 20px; flex-wrap: wrap;">
     <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/latex-logo.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="50" height="50"/>
-    <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/Overleaf_logo.svg" width="50" height="50"/>  
+    <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/Overleaf_Logo.svg" width="50" height="50"/>  
   <div>
 
 - **Productivity:**
