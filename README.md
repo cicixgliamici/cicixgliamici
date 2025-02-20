@@ -29,10 +29,10 @@ Here's a quick overview of what you'll find in my GitHub profile:
 
 - [**University Repository**](https://github.com/cicixgliamici/university): Study and teaching material from my courses 📝
 - **Politecnico Projects**: Three thesis-substitute projects from Politecnico di Milano 📚: 
-    - [**Logic Network**](https://github.com/cicixgliamici/RetiLogiche_2024)
-    - [**Software Engineering**](https://github.com/cicixgliamici/Ingegneria_Software2024)
-    - [**Data Structure and Algorithms**](https://github.com/cicixgliamici/Algoritmi-StruttureDati_2024)
-- [**LeetCode Practice**](https://github.com/cicixgliamici/leetcode): LeetCode solutions with detailed explanations 💡
+    - [**Logic Network**](https://github.com/cicixgliamici/RetiLogiche_2024) using **VHDL** and **Vivado** as IDE
+    - [**Software Engineering**](https://github.com/cicixgliamici/Ingegneria_Software2024) using **Java** and **IntelliJ**, plus **Git** and **GitHub** for Version Control
+    - [**Data Structure and Algorithms**](https://github.com/cicixgliamici/Algoritmi-StruttureDati_2024) using **C** and **CLion** as IDE
+- [**LeetCode Practice**](https://github.com/cicixgliamici/leetcode): LeetCode solutions with detailed explanations, using different languages, like **Python**, **C** and **Go** 💡
 
 ## Coming Soon 🚧
 
@@ -47,8 +47,9 @@ Here's a quick overview of what you'll find in my GitHub profile:
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" height="50"/>
   </div>
-
+  
 - **Version Control:**
   <div style="display: flex; gap: 20px; flex-wrap: wrap;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50"/>
@@ -61,12 +62,14 @@ Here's a quick overview of what you'll find in my GitHub profile:
     <img src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" width="50" height="50"/>
     <img src="https://resources.jetbrains.com/storage/products/clion/img/meta/clion_logo_300x300.png" width="50" height="50"/>
     <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/vivado_logo.svg" width="80" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" height="50"/>
   </div>
 
 - **Writing**
   <div style="display: flex; gap: 20px; flex-wrap: wrap;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/overleaf/overleaf-original.svg" width="50" height="50"/>
   <div>
 
 - **Productivity:**
@@ -80,7 +83,7 @@ Here's a quick overview of what you'll find in my GitHub profile:
 ## More About Me
 
 📁 This Repo contains:
-- My professional [CV](https://github.com/cicixgliamici/cicixgliamici/raw/main/CV-Chiaretti.pdf)
+- My professional [CV](https://github.com/cicixgliamici/cicixgliamici/raw/main/CV-Chiaretti.pdf) and a colorful one [CV]()
 - Study Plan [PDF](https://github.com/cicixgliamici/cicixgliamici/raw/main/StudyPlan.pdf) (List of all completed and on going courses)
 
 💡 *For better readability of documents, I recommend downloading them as GitHub's rendering can sometimes be suboptimal.*
