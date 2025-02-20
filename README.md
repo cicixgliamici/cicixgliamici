@@ -67,9 +67,9 @@ Here's a quick overview of what you'll find in my GitHub profile:
 
 - **Writing**
   <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" width="50" height="50"/>
+    <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/latex-logo.svg" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="50" height="50"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Overleaf.svg" width="50" height="50"/>
+    <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/Overleaf_logo.svg" width="50" height="50"/>  
   <div>
 
 - **Productivity:**
@@ -78,6 +78,10 @@ Here's a quick overview of what you'll find in my GitHub profile:
     <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/excel_logo.svg" width="80" height="50"/>
     <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/google_doc_logo.svg" width="80" height="50"/>
   </div>
+
+## Some Stats 📊
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cicixgliamici&layout=compact&theme=dark&hide=CSS,HTML)](https://github.com/anuraghazra/github-readme-stats)
 
 
 ## More About Me
