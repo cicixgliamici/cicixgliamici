@@ -7,7 +7,7 @@ I'm currently pursuing a Master's in Computer Engineering at the University of B
 - **Name:** Leonardo Chiaretti 
 - **Age:** 23
 - **Favorite Film:** [Parasite](https://en.wikipedia.org/wiki/Parasite_(2019_film))
-- **Favorite Book:** [Thus spake Zarathustra](https://en.wikipedia.org/wiki/Thus_Spoke_Zarathustra)
+- **Favorite Book:** [Thus spoke Zarathustra](https://en.wikipedia.org/wiki/Thus_Spoke_Zarathustra)
 
 ## Education 🎓
 
