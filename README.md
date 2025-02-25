@@ -83,10 +83,6 @@ Here's a quick overview of what you'll find in my GitHub profile:
 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cicixgliamici&layout=compact&theme=dark&hide=CMake,Makefile)](https://github.com/anuraghazra/github-readme-stats)
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cicixgliamici&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-
-![GitHub Repo Count](https://img.shields.io/github/repos/cicixgliamici?style=for-the-badge&color=blue)
 ![GitHub Stars](https://img.shields.io/github/stars/cicixgliamici?style=for-the-badge&color=yellow)
 
 
