@@ -81,9 +81,9 @@ Here's a quick overview of what you'll find in my GitHub profile:
 
 ## Some Stats 📊
 
+![GitHub Stars](https://img.shields.io/github/stars/cicixgliamici?style=for-the-badge&color=yellow)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cicixgliamici&layout=compact&theme=dark&hide=CMake,Makefile)](https://github.com/anuraghazra/github-readme-stats)
-![GitHub Stars](https://img.shields.io/github/stars/cicixgliamici?style=for-the-badge&color=yellow)
 
 
 ## More About Me
