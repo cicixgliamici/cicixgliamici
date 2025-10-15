@@ -88,7 +88,7 @@ Here's a quick overview of what you'll find in my GitHub profile:
 ## More About Me
 
 📁 This Repo contains:
-- My professional [CV](https://github.com/cicixgliamici/cicixgliamici/raw/main/CV-Chiaretti%20v2.pdf)
+- My professional [CV](https://github.com/cicixgliamici/cicixgliamici/raw/main/leonardo_chiaretti_cv.pdf)
 - Study Plan [PDF](https://github.com/cicixgliamici/cicixgliamici/raw/main/StudyPlan.pdf) (List of all completed and on going courses)
 
 💡 *For better readability of documents, I recommend downloading them as GitHub's rendering can sometimes be suboptimal.*
