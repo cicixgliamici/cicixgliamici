@@ -5,7 +5,7 @@ I'm currently pursuing a Master's in Computer Engineering at the University of B
 ## About Me
 
 - **Name:** Leonardo Chiaretti 
-- **Age:** 23
+- **Age:** 24
 - **Favorite Film:** [Parasite](https://en.wikipedia.org/wiki/Parasite_(2019_film))
 - **Favorite Book:** [Thus spoke Zarathustra](https://en.wikipedia.org/wiki/Thus_Spoke_Zarathustra)
 
@@ -27,7 +27,6 @@ I'm currently pursuing a Master's in Computer Engineering at the University of B
 
 Here's a quick overview of what you'll find in my GitHub profile:
 
-- [**University Repository**](https://github.com/cicixgliamici/university): Study and teaching material from my courses 📝
 - **Politecnico Projects**: Three thesis-substitute projects from Politecnico di Milano 📚: 
     - [**Logic Network**](https://github.com/cicixgliamici/RetiLogiche_2024) using **VHDL** and **Vivado** as IDE
     - [**Software Engineering**](https://github.com/cicixgliamici/Ingegneria_Software2024) using **Java** and **IntelliJ**, plus **Git** and **GitHub** for Version Control
@@ -36,7 +35,7 @@ Here's a quick overview of what you'll find in my GitHub profile:
 
 ## Coming Soon 🚧
 
-- [**Lambda Calculus in Scala**](#): Exploring lambda calculus through Scala 🔢
+- [**DSL for Finance in Scala**](#): Exploring Scala through the construction of an Interpreter for a DSL 🔢
 - [**Pokemon Cards Database**](#): Full-stack collection management system 🎴
 
 ## Skills & Tools
