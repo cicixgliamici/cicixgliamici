@@ -68,3 +68,17 @@
 | Robotics | Robotics | ING-INF/05 | 5 |
 | Fundamentals of Electronics | Fondamenti di Elettronica | ING-INF/01 | 10 |
 | Bioinformatics Algorithms | Bioinformatics Algorithms | ING-INF/05 | 5 |
+
+
+### Some Stats
+
+| SSD | Total CFU | SSD | Total CFU |
+|---|---:|---|---:|
+| ING-INF/05 | 142 | ING-INF/01 | 10 |
+| MAT/05 | 20 | MAT/03 | 8 |
+| MAT/09 | 12 | MAT/01 | 9 |
+| FIS/01 | 12 | ING-IND/35 | 6 |
+| ING-INF/03 | 10 | INF/01 | 6 |
+| ING-IND/31 | 10 | ING-INF/07 | 5 |
+| MAT/06 | 10 | MAT/02 | 2 |
+| ING-INF/04 | 10 |  |  |
