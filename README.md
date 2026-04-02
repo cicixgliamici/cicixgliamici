@@ -39,20 +39,12 @@ Projects developed during my academic journey at **Politecnico di Milano** and *
 ### Paper Implementations
 Repositories dedicated to implementing systems, ideas, or models inspired by academic papers.
 
-- [**Project Name**](#)  
-  Short description of the implemented paper/project
 
-- [**Project Name**](#)  
-  Short description of the implemented paper/project
 
 ### Educational Repositories
 Repositories created for learning, practice, and study purposes.
 
-- [**Repository Name**](#)  
-  Short description
 
-- [**Repository Name**](#)  
-  Short description
 
 ---
 
@@ -89,6 +81,8 @@ Repositories created for learning, practice, and study purposes.
 | Information Security | Introduction to Quantum Computing |
 | Operations Research | Machine Learning and Data Mining |
 | Software Systems Engineering | Autonomous and Adaptive Systems |
+| Electronic Computer Systems | Intelligent Systems |
+| Computational Models and Programming Languages | Innovation and Project Management |
 
 
 ### Bachelor's Degree in Computer Engineering  
@@ -119,6 +113,21 @@ Repositories created for learning, practice, and study purposes.
 Alongside my university studies, I have explored additional topics through online courses and independent study.
 
 
+IBM Quantum Platform - Basics of Quantum Information, Feb 2026 
+
+IBM SkillsBuild — Project Management Fundamentals (10h), Feb 2026 
+
+IBM SkillsBuild — Artificial Intelligence Fundamentals (10h), Apr 2025 
+
+IBM SkillsBuild — Cybersecurity Fundamentals (10h), Apr 2025 
+
+DeepLearning.AI — AI Python for Beginners (10h), Sep 2025 
+
+DeepLearning.AI — Post‑training of LLMs (1.15h), Aug 2025 
+
+NVIDIA x Coursera - Introduction to Networking, Jan 2026 
+
+NVIDIA DLI — Getting Started with Deep Learning (8h), Feb 2025 
 
 ---
 
