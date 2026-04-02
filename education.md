@@ -69,7 +69,6 @@
 | Fundamentals of Electronics | Fondamenti di Elettronica | ING-INF/01 | 10 |
 | Bioinformatics Algorithms | Bioinformatics Algorithms | ING-INF/05 | 5 |
 
-
 ### Some Stats
 
 | SSD | Total CFU | SSD | Total CFU |
