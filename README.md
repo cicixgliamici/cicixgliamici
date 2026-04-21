@@ -1,4 +1,6 @@
-# Hi, I'm Leonardo (Lioko or cicixgliamici)! 👋
+# Leonardo Chiaretti
+
+Master's student in **Computer Engineering (LM-32)** at the **University of Bologna**, currently working at the **European Defence Agency** as a **Trainee in Project Management and Information Technology**.
 
 My GitHub is focused on projects at the intersection of:
 - **programming languages and DSL design**
@@ -27,30 +29,20 @@ An educational repository for **quantum computing, quantum information, and hard
 - **What it shows:** technical education design, mathematical clarity, scientific computing structure
 - **Stack:** Python, NumPy, Jupyter, pytest
 
-### [LeetCode](https://github.com/cicixgliamici/leetcode)
-A repository of problem solutions with explanations, comments, and complexity-oriented practice material.
-- **What it shows:** consistency, problem solving, interview-oriented algorithmic practice
-- **Stack:** currently focused on structured multi-problem solutions and notes
+### [A Weak Silly Substitution Calculus](https://github.com/cicixgliamici/a-weak-Silly-substitution-Calculus)
+A small theory-oriented repository centered on a custom substitution calculus and its formal intuition.
+- **What it shows:** interest in formal systems, substitution models, rewriting, and programming-language foundations
+- **Focus:** compact, rigorous, extensible theoretical artifact
 
+---
 
-### University Projects
-Projects developed during my academic journey at **Politecnico di Milano** and **University of Bologna**.
+## Current Direction
 
-- [**Computational Models and Programming Languages**](#)  
-  - **Overview:** Sophie: Design and implementation of a domain-specific language interpreter for trading strategies  
-  - **Tech Stack:** Scala, sbt, ANTLR4
-
-- [**Logic Network**](https://github.com/cicixgliamici/RetiLogiche_2024)  
-  - **Overview:** Hardware design project focused on RAM sequence processing using a finite-state machine  
-  - **Tech Stack:** VHDL, Vivado
-
-- [**Software Engineering**](https://github.com/cicixgliamici/Ingegneria_Software2024)  
-  - **Overview:** Team project involving the implementation of a real board game  
-  - **Tech Stack:** Java 17, IntelliJ IDEA, Git, GitHub
-
-- [**Data Structures and Algorithms**](https://github.com/cicixgliamici/Algoritmi-StruttureDati_2024)  
-  - **Overview:** Bakery management system designed around data-structure-driven problem solving  
-  - **Tech Stack:** C, CLion, Valgrind
+I am especially interested in building and documenting projects related to:
+- **programming languages, interpreters, and formal structure**
+- **logic and theoretical computer science**
+- **quantum computing and rigorous technical education**
+- **small but well-structured software artifacts with strong explanatory value**
 
 ---
 
@@ -74,8 +66,7 @@ Projects developed during my academic journey at **Politecnico di Milano** and *
 
 ---
 
----
-## Formal Education 🎓
+## Education
 
 ### Master's Degree in Computer Engineering
 **Alma Mater Studiorum – University of Bologna**  
@@ -93,95 +84,19 @@ Relevant areas include calculus, geometry and linear algebra, logic and algebra,
 
 ---
 
-## Further / Online Education 📚
+## Further Learning
 
-Alongside my university studies, I have explored additional topics through online courses and independent study.
-
-
-IBM Quantum Platform - Basics of Quantum Information, Feb 2026 
-
-IBM SkillsBuild — Project Management Fundamentals (10h), Feb 2026 
-
-IBM SkillsBuild — Artificial Intelligence Fundamentals (10h), Apr 2025 
-
-IBM SkillsBuild — Cybersecurity Fundamentals (10h), Apr 2025 
-
-DeepLearning.AI — AI Python for Beginners (10h), Sep 2025 
-
-DeepLearning.AI — Post‑training of LLMs (1.15h), Aug 2025 
-
-NVIDIA x Coursera - Introduction to Networking, Jan 2026 
-
-NVIDIA DLI — Getting Started with Deep Learning (8h), Feb 2025 
+Alongside university studies, I have explored additional topics through online courses and independent study, including quantum computing, artificial intelligence, cybersecurity, deep learning, networking, and project management.
 
 ---
 
-## Certifications 🏅
+## Documents
 
-
-
----
-
-## Skills & Tools
-
-### Languages
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="50" height="50"/>
-</div>
-
-### Version Control
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" height="50"/>
-</div>
-
-### IDEs
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" height="50"/>
-  <img src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" width="50" height="50"/>
-  <img src="https://resources.jetbrains.com/storage/products/clion/img/meta/clion_logo_300x300.png" width="50" height="50"/>
-  <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/vivado_logo.svg" width="80" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" height="50"/>
-</div>
-
-### Writing
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/latex-logo.svg" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="50" height="50"/>
-  <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/Overleaf_Logo.svg" width="50" height="50"/>
-</div>
-
-### Productivity
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg" width="50" height="50"/>
-  <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/excel_logo.svg" width="80" height="50"/>
-  <img src="https://raw.githubusercontent.com/cicixgliamici/cicixgliamici/main/assets/images/google_doc_logo.svg" width="80" height="50"/>
-</div>
+- [CV (PDF)](https://github.com/cicixgliamici/cicixgliamici/raw/main/leonardo_chiaretti_cv.pdf)
+- [Study Plan (PDF)](https://github.com/cicixgliamici/cicixgliamici/raw/main/StudyPlan.pdf)
 
 ---
 
-## Some Stats 📊
-
-![GitHub Stars](https://img.shields.io/github/stars/cicixgliamici?style=for-the-badge&color=yellow)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cicixgliamici&layout=compact&theme=dark&hide=CMake,Makefile)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-## More About Me
-
-- **Name:** Leonardo Chiaretti
-- **Favorite Film:** [Parasite](https://en.wikipedia.org/wiki/Parasite_(2019_film))
-- **Favorite Book:** [Thus Spoke Zarathustra](https://en.wikipedia.org/wiki/Thus_Spoke_Zarathustra)
-
-📁 This repository also contains:
-- My professional [CV](https://github.com/cicixgliamici/cicixgliamici/raw/main/leonardo_chiaretti_cv.pdf)
-- My [Study Plan PDF](https://github.com/cicixgliamici/cicixgliamici/raw/main/StudyPlan.pdf), including completed and ongoing courses
-
-💡 *For better readability of documents, I recommend downloading them, as GitHub's preview can sometimes be suboptimal.*
-
-Feel free to explore my repositories, and don’t hesitate to get in touch if you’d like to collaborate or simply say hi! 😊
+Outside of academics and coding, I enjoy philosophy, cinema, and training at the gym.
+6. RetiLogiche_2024
+```
