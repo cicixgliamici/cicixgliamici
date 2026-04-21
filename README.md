@@ -10,8 +10,6 @@ I previously earned a Bachelor's degree in Computer Engineering (**L-8, 180 ECTS
 
 ---
 
-## My Repositories
-
 ## Selected Projects
 
 ### [Sophie](https://github.com/cicixgliamici/sophie)
