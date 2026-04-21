@@ -98,5 +98,3 @@ Alongside university studies, I have explored additional topics through online c
 ---
 
 Outside of academics and coding, I enjoy philosophy, cinema, and training at the gym.
-6. RetiLogiche_2024
-```
