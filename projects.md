@@ -1,6 +1,3 @@
-Certo, eccolo in un unico blocco copiabile. Crea un file nella root chiamato `projects.md` e incolla tutto questo:
-
-````md
 # Projects
 
 This page provides a more detailed map of my GitHub projects. The main `README.md` keeps only a short selection, while this file works as an extended portfolio page for reviewers, recruiters, and academic evaluators.
