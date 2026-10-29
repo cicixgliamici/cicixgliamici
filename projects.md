@@ -1,420 +1,328 @@
-# Projects
+# Project Portfolio
 
-This page provides a more detailed map of my GitHub projects. The main `README.md` keeps only a short selection, while this file works as an extended portfolio page for reviewers, recruiters, and academic evaluators.
+This page provides a detailed guide to my projects: why they were developed, what they implement, and where to inspect the supporting evidence.
 
-The projects are grouped by the kind of skill or signal they are meant to show: programming languages, formal methods, scientific computing, systems engineering, algorithms, and structured technical study.
+The portfolio has four categories:
 
----
+1. **Academic Projects** : coursework developed during my Master's and Bachelor's degrees.
+2. **Paper Implementations & Formalizations** : studies that translate published ideas into code, formal definitions, proofs, or engineering constraints.
+3. **Independent Explorations** : tools and experiments driven by questions I wanted to investigate.
+4. **Learning Resources & Study Notes** : explanations, exercises, reference material, and executable learning paths.
 
-## Portfolio Overview
+Each repository has one primary category here. Projects can share themes across categories: an academic project can also involve formal methods, and a learning repository can contain substantial tested code.
 
-| Area | Main repositories | What they demonstrate |
-|---|---|---|
-| Programming languages & DSLs | [Sophie](https://github.com/cicixgliamici/sophie) | DSL design, parsing, typed ASTs, evaluator architecture, Scala engineering |
-| Formal methods & logic | [A Weak Silly Substitution Calculus](https://github.com/cicixgliamici/a-weak-Silly-substitution-Calculus) | Lean 4, substitution calculi, rewriting, formal reasoning |
-| Safety-oriented C | [NASA Power of Ten Demo](https://github.com/cicixgliamici/nasa-power-of-ten-demo) | disciplined C, traceability from paper to code, tests, CI |
-| Quantum computing education | [Quantum-Ed](https://github.com/cicixgliamici/quantum_ed) | quantum foundations, NumPy-first scientific computing, notebooks, tests |
-| Log analytics / algorithms | [simhash-logs](https://github.com/cicixgliamici/simhash-logs) | Go, SimHash, near-duplicate detection, observability/security use cases |
-| System design | [System Design](https://github.com/cicixgliamici/System_design) | distributed systems reasoning, architecture trade-offs, interview preparation |
-| Algorithms practice | [LeetCode](https://github.com/cicixgliamici/leetcode), Project Euler | problem solving, multi-language practice, complexity analysis |
-| Academic engineering projects | [Algorithms & Data Structures](https://github.com/cicixgliamici/Algoritmi-StruttureDati_2024), [Software Engineering](https://github.com/cicixgliamici/Ingegneria_Software2024), [Digital Logic Design](https://github.com/cicixgliamici/RetiLogiche_2024) | C, Java, VHDL, software architecture, hardware-oriented design |
-
----
+[Profile](./README.md) · [Full academic coursework](./education.md)
 
 ## Suggested Reading Paths
 
-### For programming languages and formal reasoning
+| Interest | Suggested route |
+|---|---|
+| Programming languages and semantics | Sophie → Abstracting Abstract Machines → A Weak Silly Substitution Calculus |
+| Quantum computing and verification | Formal Quantum Validation → Quantum-Ed |
+| C and systems engineering | NASA Power of Ten Demo → cnumkit → C++ Netprobe |
+| Algorithms and experimental evaluation | SimHash Logs → Abstracting Abstract Machines → Keywords in Languages |
+| Simulation and applied modeling | Post-Crisis Collective Decision Simulator → Vehicle Dynamics KPI Toolbox → Environmental Telemetry Risk Pipeline |
 
-1. [Sophie](https://github.com/cicixgliamici/sophie)
-2. [A Weak Silly Substitution Calculus](https://github.com/cicixgliamici/a-weak-Silly-substitution-Calculus)
-3. [Programming Languages Reference & Practice](https://github.com/cicixgliamici/ProgrammingLanguages)
+The descriptions below summarize the repositories rather than certify their current build status. Each repository's README, tests, and documentation provide the detailed scope, setup commands, and verification evidence.
 
-This path highlights my interest in programming-language foundations, interpreters, formal structure, syntax, substitution, and mechanized reasoning.
+## Academic Projects
 
-### For rigorous software engineering
+These projects originate from university coursework. The course context explains the initial task; the repository documents the resulting implementation and any subsequent development. Descriptions of group projects refer to the team's artifact.
 
-1. [NASA Power of Ten Demo](https://github.com/cicixgliamici/nasa-power-of-ten-demo)
-2. [simhash-logs](https://github.com/cicixgliamici/simhash-logs)
-3. [Sophie](https://github.com/cicixgliamici/sophie)
+### Master's Degree — University of Bologna
 
-This path emphasizes small but reviewable artifacts, testing discipline, traceability, and engineering decisions.
+**Academic year 2026–2026** · Both projects received **30/30 with honours (30 e lode)**.
 
-### For academic and scientific computing interests
-
-1. [Quantum-Ed](https://github.com/cicixgliamici/quantum_ed)
-2. [A Weak Silly Substitution Calculus](https://github.com/cicixgliamici/a-weak-Silly-substitution-Calculus)
-3. Future logic and quantum/formal-verification repositories
-
-This path is the closest to my long-term interests in logic, theoretical computer science, quantum computing, and formal methods.
-
-### For interview-oriented preparation
-
-1. [LeetCode](https://github.com/cicixgliamici/leetcode)
-2. [System Design](https://github.com/cicixgliamici/System_design)
-3. [Programming Languages Reference & Practice](https://github.com/cicixgliamici/ProgrammingLanguages)
-
-This path shows structured preparation for software engineering interviews and technical discussions.
-
----
-
-# Core Technical Projects
-
-## Sophie
+#### Sophie
 
 **Repository:** [cicixgliamici/sophie](https://github.com/cicixgliamici/sophie)  
-**Status:** public, active  
-**Type:** programming-language / DSL / software architecture project  
-**Main stack:** Scala 3, sbt, ANTLR4, ScalaTest, uPickle
+**Course:** Computational Models and Programming Languages (*Linguaggi e Modelli Computazionali*)  
+**Stack:** Scala 3, sbt, ANTLR4, ScalaTest, uPickle
 
-Sophie is a JVM-based domain-specific language for expressing simple trading strategies and portfolio allocations. The repository is designed around a complete language-engineering pipeline:
+**Purpose.** Explore how a small domain-specific language can connect readable trading rules to a structured execution pipeline.
 
-```text
-source program -> parser -> typed AST -> evaluator -> execution plan -> lowered instructions -> execution/persistence
-```
+**Implemented artifact.** Sophie parses source programs into a typed AST, evaluates conditions against market data, produces an execution plan, lowers it into instructions, and applies those instructions to portfolio state. CLI and TUI frontends reuse the underlying pipeline.
 
-### What the project does
+The language supports conditional buy/sell statements, quantities and monetary amounts, price lookups, arithmetic, Boolean expressions, and selected indicators. Decision explanations retain evaluated values and distinguish false conditions from branches skipped through short-circuiting.
 
-Sophie lets the user write compact strategy-like programs such as buy/sell rules, conditional execution, portfolio target allocations, price lookups, arithmetic expressions, and indicators such as moving averages, EMA, standard deviation, and RSI.
+**Design and evidence.** A shared pure accounting engine supports preview and execution. Ordered batches validate cash, holdings, quantities, prices, and currency compatibility before acceptance. File execution adds locking and recovery mechanisms. Tests cover language behavior and execution components.
 
-The project is not meant to be a production trading platform. Its value is in showing how a small language can be designed, parsed, represented, evaluated, and connected to execution-oriented abstractions.
+**Scope.** This is a language-engineering and simulation project. Automatic portfolio rebalancing, FX conversion, and advanced order types are outside the implemented scope. Instruction identifiers do not provide replay protection.
 
-### What it demonstrates
+**Review route.** Start with the README example, inspect `src/main/antlr4/sophie.g4`, then follow `src/main/scala/ast/` and `src/main/scala/engine/`. Read `docs/decision_explanations.md`, `docs/storage_and_persistence.md`, and the corresponding tests. Run `sbt test` after following the setup instructions.
 
-- DSL design and syntax engineering
-- ANTLR-based parser construction
-- typed AST modeling with Scala case classes and sealed traits
-- interpreter/evaluator architecture
-- separation between pure core logic and side-effecting execution
-- CLI/TUI reuse of the same core pipeline
-- testing of language behavior and execution components
+#### Formal Quantum Validation
 
-### Best reviewer entry points
+**Repository:** [cicixgliamici/formal-quantum-validation](https://github.com/cicixgliamici/formal-quantum-validation)  
+**Course:** Introduction to Quantum Computing  
+**Stack:** Python, Qiskit, Lean 4, mathlib, Coq/SQIR
 
-- `src/main/antlr4/sophie.g4` — grammar definition
-- `src/main/scala/ast` — AST and AST builder
-- `src/main/scala/engine` — evaluator, execution plan, lowering, persistence
-- `src/main/scala/frontend` — parser facade and interactive frontend
-- `src/test/scala` — unit and integration tests
-- `docs/` — language and architecture notes
+**Purpose.** Investigate how executable quantum-circuit checks can be connected to exact mathematical statements and kernel-checked proofs.
 
-### Why it matters in my portfolio
+**Implemented artifact.** The project uses a restricted circuit language containing `I`, `X`, `Z`, `H`, `CNOT`, and `SWAP`. Executable checks and formal backends cover Bell preparation, GHZ(3), and two fixed Deutsch–Jozsa examples. Lean additionally proves the nonempty GHZ(n) family and unitarity and normalization preservation for supported circuits.
 
-This is currently one of my strongest software artifacts because it connects theory-oriented interests — syntax, semantics, ASTs, evaluation — with practical software architecture.
+A separate certificate path supports exact cancellation of adjacent equal self-inverse gates. A relative-phase demonstration shows why matching basis-measurement probabilities alone is insufficient to establish the intended state.
 
----
+**Design and evidence.** Versioned IR and contracts connect the executable and formal layers. Tests include semantic regressions, generated-source drift checks, and deliberately incorrect targets that must be rejected.
 
-## NASA Power of Ten Demo
+**Scope.** Kernel acceptance applies to the emitted formal statement. It does not establish correctness of Qiskit, the Python extractor, or the entire translation pipeline. Automatic proof generation remains practical for small fixed circuits; broader parametric results require reusable lemmas and induction.
 
-**Repository:** [cicixgliamici/nasa-power-of-ten-demo](https://github.com/cicixgliamici/nasa-power-of-ten-demo)  
-**Status:** public, review-ready compact artifact  
-**Type:** safety-oriented C / technical paper implementation  
-**Main stack:** C, Make, unit tests, GitHub Actions
+**Review route.** Read `docs/ARCHITECTURE.md` and `docs/TRUST_BOUNDARY.md`, inspect an IR/contract pair, then follow its generated Lean and Coq modules. Use `docs/PHASE_DEMO.md` for the phase example and `docs/DEVELOPMENT.md` for the separate toolchain-dependent suites.
 
-This repository is a small C project inspired by the NASA/JPL *Power of Ten* rules for safety-critical software. The main artifact is a fixed-size ring buffer written to demonstrate disciplined implementation rather than feature breadth.
+### Bachelor's Degree — Politecnico di Milano
 
-### What the project does
-
-The project translates the ideas of the paper into a concrete, inspectable C artifact. It focuses on bounded memory, simple control flow, explicit error handling, assertions, warning-clean compilation, tests, and documentation that maps rules to implementation choices.
-
-### What it demonstrates
-
-- disciplined C programming
-- bounded data structures
-- explicit error handling
-- traceability from engineering guidelines to code
-- unit testing of edge cases
-- CI and repository hygiene
-- technical reflection on the limits of safety-oriented rules
-
-### Best reviewer entry points
-
-- `include/ring_buffer.h` — public API
-- `src/ring_buffer.c` — core implementation
-- `tests/test_ring_buffer.c` — behavior and edge-case tests
-- `docs/rule-mapping.md` — paper-to-code traceability
-- `docs/evidence-matrix.md` — compact evaluation view
-- `.github/workflows/ci.yml` — automated quality checks
-
-### Why it matters in my portfolio
-
-It shows that I can take a technical paper or engineering guideline, extract actionable constraints, implement a small artifact, and document the reasoning behind design choices.
-
----
-
-## Quantum-Ed
-
-**Repository:** [cicixgliamici/quantum_ed](https://github.com/cicixgliamici/quantum_ed)  
-**Status:** public, active educational repository  
-**Type:** quantum computing education / scientific computing  
-**Main stack:** Python, NumPy, Jupyter, pytest
-
-Quantum-Ed is an educational repository for quantum computing, quantum information, and hardware-aware foundations. It combines theory notes, runnable notebooks, reusable Python utilities, demos, and tests.
-
-### What the project does
-
-The repository builds a learning path from basic linear algebra to qubits, state vectors, measurement, Bell states, circuits, density matrices, noise channels, and introductory hardware considerations.
-
-The emphasis is on understanding the mathematics first, then using code to make the ideas inspectable and testable.
-
-### What it demonstrates
-
-- mathematical exposition
-- scientific computing with NumPy
-- educational repository design
-- tests for mathematical properties
-- notebooks as executable explanations
-- quantum-computing foundations
-- bridge between theory notes and runnable code
-
-### Best reviewer entry points
-
-- `docs/` — structured theory chapters
-- `notebooks/` — executable learning material
-- `src/quantum_ed/` — reusable Python modules
-- `tests/` — validation of states, gates, measurement, entanglement, and noise behavior
-- `environment.yml` / `pyproject.toml` — reproducible setup
-
-### Why it matters in my portfolio
-
-This repository supports my long-term academic direction toward quantum computing, formal reasoning, and rigorous technical education. It is also designed to become a base for future quantum/formal-verification projects.
-
----
-
-## A Weak Silly Substitution Calculus
-
-**Repository:** [cicixgliamici/a-weak-Silly-substitution-Calculus](https://github.com/cicixgliamici/a-weak-Silly-substitution-Calculus)  
-**Status:** public, theory-oriented and evolving  
-**Type:** formal methods / Lean 4 / programming-language theory  
-**Main stack:** Lean 4, Lake
-
-This repository studies a small substitution-based calculus and develops a Lean 4 formalization around its syntax, contexts, reductions, strategies, normal forms, and selected theorems.
-
-### What the project does
-
-The project treats substitution as an explicit part of the formal object rather than only as a meta-operation. It defines terms, weak contexts, substitution contexts, root steps, contextual closure, strict strategies, normal-form structures, and mechanically checked examples/theorems.
-
-### What it demonstrates
-
-- Lean 4 project structure
-- formal syntax definitions
-- explicit substitution and reduction systems
-- operational semantics intuition
-- theorem-proving workflow
-- connection between logic, rewriting, and programming-language foundations
-
-### Best reviewer entry points
-
-- `SSC/Syntax.lean` — terms, values, free variables
-- `SSC/Contexts.lean` — weak and substitution contexts
-- `SSC/Reduction.lean` — root reduction and contextual step relation
-- `SSC/Strategy.lean` — strict strategy contexts and steps
-- `SSC/NormalForms.lean` — normal-form-related definitions
-- `SSC/Theorems/` — mechanically checked proof material
-- `SSC/Tests/` — compile-time verified examples
-
-### Why it matters in my portfolio
-
-This is the clearest repository signal for my interest in logic, formal systems, mechanized reasoning, lambda-calculus-style foundations, and future graduate study in logic/theoretical computer science.
-
----
-
-## simhash-logs
-
-**Repository:** [cicixgliamici/simhash-logs](https://github.com/cicixgliamici/simhash-logs)  
-**Status:** public, Step 1 completed / Step 2 in progress  
-**Type:** paper-inspired algorithm implementation / log analytics / cybersecurity-adjacent tooling  
-**Main stack:** Go, CLI, tests
-
-This repository implements a practical version of SimHash for near-duplicate detection in system logs. It is inspired by similarity estimation techniques and adapts them to observability and security-oriented log processing.
-
-### What the project does
-
-The project normalizes noisy log fields, tokenizes messages, computes 64-bit SimHash fingerprints, compares fingerprints via Hamming distance, and detects near-duplicate log lines. The current implementation includes a brute-force baseline and in-memory LSH-like candidate generation.
-
-### What it demonstrates
-
-- Go project structure
-- text normalization and tokenization
-- SimHash fingerprinting
-- Hamming-distance-based matching
-- baseline vs indexed search trade-offs
-- CLI design
-- observability and cybersecurity use-case thinking
-
-### Best reviewer entry points
-
-- `cmd/` — CLI entrypoint
-- `internal/normalize/` — noisy-field normalization
-- `internal/tokenize/` — tokenization utilities
-- `internal/simhash/` — SimHash and Hamming distance
-- `internal/search/` — brute-force and indexed matching logic
-- `examples/` — sample log inputs
-- `docs/` — design notes and experiment material
-
-### Why it matters in my portfolio
-
-It shows that I can take an algorithmic idea from literature and turn it into an applied engineering prototype with realistic data-processing motivations.
-
----
-
-# Educational and Preparation Repositories
-
-## System Design
-
-**Repository:** [cicixgliamici/System_design](https://github.com/cicixgliamici/System_design)  
-**Status:** public, growing educational repository  
-**Type:** distributed systems / architecture reasoning / interview preparation
-
-This repository organizes system-design fundamentals, distributed-systems concepts, architectural patterns, case studies, exercises, and glossary material.
-
-### What it demonstrates
-
-- structured reasoning about distributed systems
-- reliability, scalability, and performance trade-offs
-- architecture communication
-- interview preparation discipline
-- reusable templates for design discussions
-
-### Planned value
-
-The long-term goal is to make it a structured handbook of system-design reasoning rather than a random collection of interview prompts.
-
----
-
-## LeetCode Solutions
-
-**Repository:** [cicixgliamici/leetcode](https://github.com/cicixgliamici/leetcode)  
-**Status:** public, being normalized  
-**Type:** algorithms practice / multi-language problem solving
-
-This repository collects LeetCode solutions, currently organized by difficulty and supported by maintenance scripts for metadata, statistics, and generated problem indexes.
-
-### What it demonstrates
-
-- algorithmic problem solving
-- complexity analysis
-- multi-language implementation practice
-- repository normalization and metadata discipline
-- interview-oriented preparation
-
-### Current direction
-
-The repository is being moved toward a consistent structure where each problem has metadata, a README, approach explanation, complexity notes, and one or more language-specific implementations.
-
----
-
-## Programming Languages Reference & Practice
-
-**Repository:** [cicixgliamici/ProgrammingLanguages](https://github.com/cicixgliamici/ProgrammingLanguages)  
-**Status:** public, growing study repository  
-**Type:** programming-language reference / practice archive
-
-This repository collects notes, exercises, small examples, and language-specific material across C, Java, Scala, Python, Lean 4, and Spring Boot.
-
-### What it demonstrates
-
-- broad programming-language practice
-- comparison of idioms across languages
-- language-specific study discipline
-- connection between practical programming and language foundations
-- preparation for interviews and technical breadth
-
-### Role in the portfolio
-
-It is best understood as a structured learning archive rather than as a single finished software artifact.
-
----
-
-## Project Euler
-
-**Repository:** currently private / in progress  
-**Status:** early stage  
-**Type:** mathematical problem solving / algorithms / numerical reasoning
-
-The Project Euler repository is intended to become a mathematics-oriented problem-solving archive. Its role is different from LeetCode: the emphasis is less on interview-style patterns and more on number theory, combinatorics, mathematical insight, and efficient implementation.
-
-### Intended value
-
-- show mathematical maturity through code
-- practice efficient algorithms for mathematical problems
-- complement the formal/theoretical direction of the portfolio
-- provide a bridge between programming, mathematics, and computational reasoning
-
-### Public-release condition
-
-This repository should become public once it has a clean structure, consistent documentation, and enough solved problems to look intentional rather than empty.
-
----
-
-# Academic Engineering Projects
-
-These repositories come from university coursework and are useful as evidence of foundational engineering experience. They are not all equally polished as modern portfolio artifacts, but they show important technical background.
-
-## Algorithms and Data Structures 2024
-
-**Repository:** [cicixgliamici/Algoritmi-StruttureDati_2024](https://github.com/cicixgliamici/Algoritmi-StruttureDati_2024)  
-**Status:** public academic project  
-**Type:** C / data structures / algorithmic system
-
-This project implements a bakery-management simulation in C using data structures such as hash tables, min-heaps, max-heaps, queues, and linked lists.
-
-### What it demonstrates
-
-- C programming
-- manual memory management
-- hash tables, heaps, queues, and linked lists
-- modular decomposition across source files
-- performance-oriented data-structure selection
-- algorithmic reasoning under constraints
-
----
-
-## Software Engineering 2024
+#### Codex Naturalis
 
 **Repository:** [cicixgliamici/Ingegneria_Software2024](https://github.com/cicixgliamici/Ingegneria_Software2024)  
-**Status:** public academic group project  
-**Type:** Java / software engineering / client-server game
+**Course:** Software Engineering (*Ingegneria del Software*)  
+**Context:** Academic year 2023–2024; four-person team, AM19  
+**Technology:** Java, TCP sockets, graphical and textual interfaces
 
-This project implements the board game *Codex Naturalis* as a university software-engineering project, including complete rules, textual UI, graphical UI, TCP socket connection, and chat functionality.
+**Purpose and artifact.** Implement the board game *Codex Naturalis* as a client-server application. The team artifact includes the game rules, GUI, TUI, network communication, and chat.
 
-### What it demonstrates
+**Evidence to inspect.** Source and tests are accompanied by UML diagrams, generated JavaDoc, a game JAR, and peer-review deliverables. Together, these provide material for examining both software behavior and the team's design process.
 
-- Java software engineering
-- larger group project organization
-- client-server communication
-- UML and design documentation
-- testing and delivery artifacts
-- GUI/TUI implementation
+**Review route.** Begin with the repository README and delivery material, then compare the UML with `src/main/` and inspect `src/test/`. The features listed here describe the group result rather than an attribution of every component to one author.
 
----
-
-## Digital Logic Design 2024
+#### RAM Sequence Processing FSM
 
 **Repository:** [cicixgliamici/RetiLogiche_2024](https://github.com/cicixgliamici/RetiLogiche_2024)  
-**Status:** public academic project  
-**Type:** VHDL / FSM / hardware-oriented design
+**Course:** Digital Logic Design (*Reti Logiche*)  
+**Context:** Two-person project with Enrico James Busato  
+**Technology:** VHDL, finite-state machines, Vivado
 
-This project implements a RAM sequence-processing finite-state machine in VHDL. The design reads and processes memory sequences, handles zero values, computes credibility values, and writes processed results back to RAM.
+**Purpose and artifact.** Design a hardware controller that reads a sequence from RAM, replaces zero values according to the specification, updates associated credibility values, and writes results back to memory.
 
-### What it demonstrates
+**Engineering focus.** Explicit state transitions, clocked memory interaction, reset behavior, and boundary cases connect the algorithm to synchronous hardware constraints.
 
-- VHDL design
-- finite-state machines
-- RAM interaction
-- synchronous hardware reasoning
-- testbench-based verification
-- hardware/software boundary awareness
+**Review route.** Read the processing specification, trace the FSM implementation, and inspect the supplied testbenches and synthesis material. Functional simulation and synthesis/timing evidence answer different questions and should be examined separately.
+
+#### Bakery Management System
+
+**Repository:** [cicixgliamici/Algoritmi-StruttureDati_2024](https://github.com/cicixgliamici/Algoritmi-StruttureDati_2024)  
+**Course:** Algorithms and Foundations of Computer Science (*Algoritmi e Principi dell'Informatica*)  
+**Context:** Academic year 2023–2024  
+**Technology:** C, hash tables, heaps, queues, linked lists
+
+**Purpose and artifact.** Simulate ingredient inventory, recipes, pending orders, and truck shipments under ordering and expiration constraints.
+
+**Engineering focus.** Data structures are selected around operations: ingredient lookup, expiration handling, pending-order processing, and shipment prioritization. The project connects algorithmic choices to manual memory management and implementation constraints.
+
+**Review route.** Read the repository's source map, inspect the data structures and order-processing modules, then compare behavior with the supplied input/output cases. Historical versions provide development context; start with the documented main implementation.
+
+## Paper Implementations & Formalizations
+
+These projects begin with published technical work. The source ideas belong to the cited authors; my work concerns their implementation, formalization, adaptation, and evaluation within each repository's stated scope.
+
+### Abstracting Abstract Machines
+
+**Repository:** [cicixgliamici/abstracting-abstract-machines](https://github.com/cicixgliamici/abstracting-abstract-machines)  
+**Foundation:** *Abstracting Abstract Machines* — David Van Horn and Matthew Might  
+**Stack:** OCaml, Dune, opam; Python experiment tooling
+
+**Purpose.** Study how a concrete evaluator becomes a conservative higher-order program analysis through store allocation and finite addresses.
+
+**Implemented artifact.** The project follows the progression from pure CEK execution to a fresh store-allocated machine and finite-address abstract analysis. It also explores state/control extensions and deterministic garbage collection.
+
+**Implementation-study contributions.** An independent pure substitution evaluator, generated tests, explicit correctness arguments, worked traces, and reproducible experiments supplement the paper-based construction. Artifact checksums identify the supplied source/documentation/result payload.
+
+**Evidence.** Tests examine machine correspondence, local abstract simulation, reachability, GC, and independent evaluation. Experiments compare allocation policies and GC configurations, distinguishing graph size, store footprint, precision proxies, timing, and completion under resource limits.
+
+**Scope.** Correctness arguments are informal rather than machine-checked proofs of the executable. Fuel exhaustion does not establish divergence, and an abstract final state does not establish concrete termination. Larger address pools do not guarantee that an experiment finishes within its budget.
+
+**Review route.** Read `WALKTHROUGH.md`, `PAPER_TO_CODE.md`, `CORRECTNESS.md`, and `VALIDATION.md`; inspect `lib/store_machine.mli` and its implementation. Follow `EXPERIMENTS.md` for results and `ARTIFACT.md` for payload verification.
+
+### A Weak Silly Substitution Calculus
+
+**Repository:** [cicixgliamici/a-weak-Silly-substitution-Calculus](https://github.com/cicixgliamici/a-weak-Silly-substitution-Calculus)  
+**Foundation:** *Mirroring Call-by-Need, or Values Acting Silly* — Beniamino Accattoli and Adrienne Lancelot  
+**Stack:** Lean 4, Lake
+
+**Purpose.** Mechanize a fragment of the paper's weak Silly Substitution Calculus and make the relationship between syntax, operational rules, and proofs explicit.
+
+**Implemented artifact.** The library includes named terms, explicit substitutions, free-variable infrastructure, freshness and capture-avoiding substitution, contexts, labelled root rules, and weak closures. It formalizes the Call-by-Silly strategy and proves its inclusion in generic weak reduction.
+
+**Formalization contribution.** The development includes a bidirectional weak-normal-form characterization, checked examples, regression tests, and a document mapping implemented definitions and results to the paper.
+
+**Scope.** This is a growing formalization of an existing calculus. It does not claim the full paper development; multi-step infrastructure, postponement results, and confluence infrastructure remain subsequent milestones.
+
+**Review route.** Start with `docs/paper-implementation.md`, then inspect `SSC/Syntax.lean`, `SSC/Reduction.lean`, `SSC/Strategy.lean`, and `SSC/Theorems/`. Run `lake build` to check the library, examples, and tests.
+
+### SimHash Logs
+
+**Repository:** [cicixgliamici/simhash-logs](https://github.com/cicixgliamici/simhash-logs)  
+**Foundations:** Charikar's *Similarity Estimation Techniques from Rounding Algorithms*; Manku, Jain, and Das Sarma's *Detecting Near-Duplicates for Web Crawling*  
+**Stack:** Go, CLI, unit and integration tests
+
+**Purpose.** Adapt similarity fingerprints and candidate-generation methods to noisy system logs.
+
+**Implemented artifact.** The pipeline normalizes variable fields, tokenizes messages, computes 64-bit SimHash fingerprints, and verifies near-duplicate matches using Hamming distance. Search options include a brute-force baseline, an LSH-style band index, a historical heuristic permutation index, and a Manku-style pigeonhole prefix index.
+
+**Adaptation and evidence.** Log normalization and configurable weighting connect the literature to a practical use case. The evaluation command compares candidate indexes against brute-force ground truth and exports parameter sweeps for analysis.
+
+**Scope.** The baseline pipeline and candidate-generation prototype are implemented. Persistent storage, streaming ingestion, larger external benchmarks, and production observability integrations remain outside the current scope. The historical heuristic and paper-faithful index are distinguished explicitly.
+
+**Review route.** Follow `internal/normalize/`, `internal/tokenize/`, `internal/simhash/`, and `internal/search/`. Run `go test ./...` and reproduce an evaluation from the README.
+
+### RFR-HJM-FMM
+
+**Repository:** [cicixgliamici/rfr-hjm-fmm](https://github.com/cicixgliamici/rfr-hjm-fmm)  
+**Foundation:** *Alternative Risk-Free Rates and the New Indexation Framework: An Analysis of Compounded Overnight Rates with Applications to FRNs and Swaps*  
+**Stack:** Python, numerical models, pytest
+
+**Purpose.** Explore the mathematical and computational structure of compounded overnight risk-free-rate instruments.
+
+**Implemented artifact.** The project provides deterministic OIS discounting, extended forward rates, FRN and payer-swap pricing, par swap rates, DV01, and convexity. Generalized FMM and Markovian HJM scaffolds form a basis for subsequent stochastic work.
+
+**Scope.** Deterministic pricing and tested scaffolds do not constitute the completed coupled stochastic model. Pathwise pricing, the monthly simulation experiment, paper risk-table reproduction, and calibration remain future work.
+
+**Review route.** Begin with the README's status boundary, inspect `src/rfr_hjm_fmm/`, and run the examples and validation suite before examining the model scaffolds.
+
+### NASA Power of Ten Demo
+
+**Repository:** [cicixgliamici/nasa-power-of-ten-demo](https://github.com/cicixgliamici/nasa-power-of-ten-demo)  
+**Foundation:** NASA/JPL's *The Power of Ten: Rules for Developing Safety-Critical Code*  
+**Stack:** C, Make, tests, ACSL contracts, optional Frama-C tooling
+
+**Purpose.** Turn engineering guidelines into explicit implementation constraints and inspectable evidence.
+
+**Implemented artifact.** A fixed-size ring buffer provides bounded memory, simple control flow, explicit status handling, invariants, and meaningful empty/full/wrap-around cases.
+
+**Engineering contribution.** Rule-to-code mapping, compliant/non-compliant examples, tests, contracts, and a lightweight safety case explain how the guidelines influence design decisions.
+
+**Scope.** This is an engineering study, not a certified safety-critical library. Formal and static-analysis paths depend on the documented tools; their evidence must be distinguished from the ordinary build and unit tests.
+
+**Review route.** Inspect `include/ring_buffer.h`, `src/ring_buffer.c`, and `tests/test_ring_buffer.c`, then read the verification matrix and contract documentation. Use `make review` for the standard reviewer path.
+
+## Independent Explorations
+
+These projects investigate a question or build a tool outside the coursework and paper-implementation categories above. Their scope ranges from focused libraries to simulation prototypes and comparative studies.
+
+### cnumkit
+
+**Repository:** [cicixgliamici/cnumkit](https://github.com/cicixgliamici/cnumkit)  
+**Area and stack:** Numerical computing; C11, CMake
+
+A small scientific-computing library exploring predictable APIs, explicit ownership, borrowed vector/matrix views, runtime error handling, and numerical reasoning. Modules cover scalar kernels, dense linear algebra, optimization helpers, and simple one-dimensional ML utilities.
+
+**Evidence and scope.** Examples and mathematical scenario tests connect individual operations to complete calculations. Build configurations cover strict warnings, static/shared libraries, contracts, and sanitizers. The scalar implementation is educational; it does not aim to replace BLAS or LAPACK. RISC-V is a documented direction, and RVV acceleration is future work.
+
+**Review route.** Read `docs/USER_GUIDE.md`, `docs/BORROWED_KERNELS.md`, and `docs/NUMERICAL_NOTES.md`; inspect public headers and scenario tests. Follow the README's CMake/CTest commands.
+
+### Post-Crisis Collective Decision Simulator
+
+**Repository:** [cicixgliamici/fallout-decision-making](https://github.com/cicixgliamici/fallout-decision-making)  
+**Area and stack:** Collective decision-making; Python simulation
+
+A Fallout-inspired isolated-colony model asks when delegation improves material outcomes under scarcity, and how it affects preference satisfaction and concentration of voting power.
+
+**Implemented artifact.** Community members estimate needs, rank policies, vote or delegate, and experience resource and health consequences. The simulator compares first-choice plurality, approval, expert delegation, and bounded-chain liquid democracy under explicit scenario assumptions.
+
+**Evidence and scope.** Documented study assumptions, reproducible scenarios, reports, and event logs make the model inspectable. Outcomes describe the simulated rules and assumptions; they are not predictions about real communities. Strategic voting, coalitions, and equilibria are future extensions.
+
+**Review route.** Start with `docs/walkthrough.md`, `docs/research_basis.md`, `docs/study_protocol.md`, and `docs/current_results.md`; use `docs/code_guide.md` to follow the implementation.
+
+### C++ Netprobe
+
+**Repository:** [cicixgliamici/cpp-netprobe](https://github.com/cicixgliamici/cpp-netprobe)  
+**Area and stack:** Packet analysis; C++20, libpcap, CMake, Doctest
+
+A layered packet analyzer reads capture files or live traffic and produces structured protocol reports. Individual parsers consume byte spans and return typed results or an explicit failure for malformed/truncated input.
+
+**Engineering focus.** Protocol layering, byte order, header lengths, zero-copy views, and parser failure behavior connect networking concepts to systems programming. Supported paths include Ethernet, IPv4/IPv6, ARP, and selected transport/control protocols, with BPF filtering.
+
+**Scope and review route.** Evaluate the documented protocol coverage rather than assuming complete network-stack behavior. Inspect `include/netprobe/`, `src/`, and `tests/`, then build with CMake and run CTest using the README instructions.
+
+### Vehicle Dynamics KPI Toolbox
+
+**Repository:** [cicixgliamici/vehicle-dynamics-kpi-toolbox](https://github.com/cicixgliamici/vehicle-dynamics-kpi-toolbox)  
+**Area and stack:** Vehicle dynamics and signal processing; MATLAB
+
+A pipeline for loading measurements, preprocessing signals, detecting maneuvers, extracting handling/ride KPIs, and exporting results. It includes spectral analysis, bicycle-model comparisons, and a linear Kalman filter for sideslip estimation.
+
+**Evidence and scope.** Synthetic maneuvers and tests connect numerical outputs to stated physical models. The linear assumptions and synthetic validation define the interpretation of the results. Nonlinear tyre models, an EKF extension, and standardized frequency-weighted ride scoring remain roadmap items.
+
+**Review route.** Read `docs/ARCHITECTURE.md` and `docs/MATH_REFERENCE.md`, run the single-maneuver example, and inspect `tests/ToolboxTest.m` and the robustness-validation script.
+
+### Environmental Telemetry Risk Pipeline
+
+**Repository:** [cicixgliamici/env-telemetry-risk-pipeline](https://github.com/cicixgliamici/env-telemetry-risk-pipeline)  
+**Area and stack:** Applied ML and data validation; Python, pytest, Docker
+
+A small pipeline validates environmental telemetry, profiles data quality, creates features, compares baseline classifiers, performs batch prediction, and detects anomalies with Isolation Forest.
+
+**Evidence and scope.** Generated metrics, model metadata, reports, and deterministic synthetic-data generation support reproducible review. The bundled dataset is small: model metrics provide pipeline smoke evidence rather than validated field performance.
+
+**Review route.** Read the dataset card, model card, and modeling notes under `docs/`; run validation and tests before reproducing training, prediction, or anomaly detection.
+
+### Keywords in Languages
+
+**Repository:** [cicixgliamici/keywords-in-languages](https://github.com/cicixgliamici/keywords-in-languages)  
+**Area and stack:** Comparative language study; CSV corpus, Python validation and notebooks
+
+A source-backed corpus investigates how reserved and contextual tokens distribute semantic responsibilities across C, C++, Rust, Go, and Scala.
+
+**Study contribution.** The dataset distinguishes lexical status, aliases, versions, and semantic annotations. Validation and generated findings make the static comparison reproducible.
+
+**Scope.** Keyword counts are not interchangeable measures of language complexity. Independent annotation reliability remains planned; historical coverage is provisional and real-program usage analysis has not started.
+
+**Review route.** Inspect `data/keywords.csv`, `data/sources.csv`, `docs/TAXONOMY.md`, and `docs/FINDINGS_PHASE1.md`, then run the documented validation and notebook checks.
+
+## Learning Resources & Study Notes
+
+These repositories organize study rather than deliver one application. Their value lies in the clarity of explanations, progression of exercises, and connection between written claims and executable examples.
+
+### Quantum-Ed
+
+**Repository:** [cicixgliamici/quantum_ed](https://github.com/cicixgliamici/quantum_ed)  
+**Focus:** Quantum computing, information, and verifiable simulation
+
+Mathematical notes, eight notebooks, a NumPy toolkit, and experiments connect states, gates, measurement, entanglement, mixed states, noise, and quantum communication.
+
+**Material to inspect.** The Bell-pair noise study compares independent NumPy and PennyLane implementations against analytical predictions, with generated data and figures. It illustrates why unchanged measurement probabilities or recovered purity do not by themselves imply preserved entanglement.
+
+**Review route.** Begin with `docs/reviewer-guide.md`, the Bell-noise study, and `experiments/README.md`, then inspect the underlying toolkit and tests. Idealized simulations should be read within their stated mathematical and hardware assumptions.
+
+### Programming Languages
+
+**Repository:** [cicixgliamici/ProgrammingLanguages](https://github.com/cicixgliamici/ProgrammingLanguages)  
+**Focus:** Languages, paradigms, frameworks, and proof assistants
+
+Structured tracks cover C, Java, Python, Scala, Lean, Coq, and selected application ecosystems. Track READMEs distinguish executable lessons from planned material and describe prerequisites and learning objectives.
+
+**Review route.** Choose one track, follow its lesson order, inspect examples and exercises, and run its documented checks. Repository-wide verification distinguishes missing toolchains from failing checks; strict verification requires all supported toolchains.
+
+### System Design
+
+**Repository:** [cicixgliamici/System_design](https://github.com/cicixgliamici/System_design)  
+**Focus:** Distributed systems and architecture reasoning
+
+Theory guides, architectural case studies, exercises, runnable Go/Python/TypeScript modules, and benchmarks connect concepts such as caching, retries, messaging, replication, and concurrency to inspectable examples.
+
+**Review route.** Pair a theory chapter with its implementation and tests, then inspect the benchmark methodology. Case studies are design exercises, while local modules and measurements provide evidence for their own documented behavior and environment.
+
+### Meta Projects
+
+**Repository:** [cicixgliamici/meta-projects](https://github.com/cicixgliamici/meta-projects)  
+**Focus:** Git, software delivery, CI/CD, containers, and infrastructure
+
+Notes and practical labs explain development and delivery workflows. Material includes a Python API, CI examples, Docker, Kubernetes/Helm, Terraform examples, and testing exercises.
+
+**Review route.** Follow a concept from `docs/` into its corresponding lab or configuration. Treat deployment configurations as learning artifacts whose suitability depends on the documented environment.
+
+### LeetCode Solutions
+
+**Repository:** [cicixgliamici/leetcode](https://github.com/cicixgliamici/leetcode)  
+**Focus:** Algorithm practice and complexity analysis
+
+A multi-language solution archive organized by difficulty, with supporting practice tracks and reference notes. Maintenance tooling validates structure and derives indexes/statistics from metadata.
+
+**Scope and review route.** Normalization is ongoing: some problems still need metadata or explanations. Select a documented problem and inspect the approach, complexity analysis, and implementation together; consult the repository tooling for archive consistency.
 
 ---
 
-# Supporting Study Repositories
+## Academic Context
 
-Some repositories are primarily private or study-oriented archives rather than public portfolio artifacts.
+The [full academic coursework](./education.md) complements this portfolio with the subjects studied during both degrees. The project categories explain the origin of each artifact; the coursework provides the broader mathematical, theoretical, and engineering context.
 
-| Repository | Visibility / role | Notes |
-|---|---|---|
-| `university` | private academic archive | useful for personal organization, not intended as a public portfolio artifact |
-| `courses` | private learning archive | useful for certifications and independent study material |
-| `project_euler` | private / in progress | should become public after enough structure and solved problems are added |
-
-These repositories are part of my broader learning system, while the public repositories above are the ones intended for external review.
+My current direction connects **programming languages, logic, formal methods, and quantum computing**, including preparation for a thesis on quantum computing and logic.
